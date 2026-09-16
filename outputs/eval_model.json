@@ -1,0 +1,26 @@
+{
+  "baseline_yolo26n-pose": {
+    "pose_mAP50": 0.842,
+    "pose_mAP50_95": 0.612,
+    "pose_precision": 0.875,
+    "pose_recall": 0.821,
+    "box_mAP50": 0.912,
+    "box_mAP50_95": 0.735
+  },
+  "finetuned": {
+    "pose_mAP50": 0.851,
+    "pose_mAP50_95": 0.608,
+    "pose_precision": 0.881,
+    "pose_recall": 0.819,
+    "box_mAP50": 0.915,
+    "box_mAP50_95": 0.732
+  },
+  "delta": {
+    "pose_mAP50": 0.009,
+    "pose_mAP50_95": -0.004,
+    "pose_precision": 0.006,
+    "pose_recall": -0.002,
+    "box_mAP50": 0.003,
+    "box_mAP50_95": -0.003
+  }
+}
